@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.egg-info/
+dist/
+build/
+.claude/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep specific data files
+!modules/*/data/sample-*.csv
+!assignments/*/data/starter-*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+config.ini
+secrets.json
+
+# ML Models
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+models/
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Temporary files
+tmp/
+temp/
+cache/
+.cache/
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+site/
+
+# Solutions (keep private)
+*/solutions/*_solution.ipynb
+*/solutions/*_answer.py
+
+# Student submissions
+submissions/
+student_work/
+grading/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# API keys and credentials
+credentials/
+*.pem
+*.key
+*.crt
+
+# Output files
+output/
+results/
+figures/
+plots/
+
+# Keep important files
+!.gitkeep
+!README.md
+!requirements.txt
