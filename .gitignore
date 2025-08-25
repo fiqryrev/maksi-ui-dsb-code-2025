@@ -100,3 +100,6 @@ plots/
 !.gitkeep
 !README.md
 !requirements.txt
+!**/notebooks/.gitkeep
+!**/data/.gitkeep
+!**/solutions/.gitkeep
