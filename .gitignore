@@ -27,23 +27,6 @@ build/
 .jupyter/
 *.ipynb_checkpoints
 
-# Data files
-*.csv
-*.xlsx
-*.xls
-*.json
-*.parquet
-*.feather
-*.h5
-*.hdf5
-*.db
-*.sqlite
-*.sqlite3
-
-# Keep specific data files
-!modules/*/data/sample-*.csv
-!assignments/*/data/starter-*.csv
-
 # IDE
 .vscode/
 .idea/
